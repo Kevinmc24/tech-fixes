@@ -1,0 +1,13 @@
+# open cmd with Shift f10, enter each command in the order below. 
+
+
+
+net user Administrator active:yes
+
+net user /add admin admin
+
+net localgroup administrators admin /add
+
+cd %windir% \system32\oobe
+
+msoobe.exe
